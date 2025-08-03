@@ -1,0 +1,9 @@
+from googletrans import Translator 
+
+translator = Translator()
+txt="Comment allez vous?'
+output=translator.Translator(txt,dest='en')
+
+print(output.txt)
+
+
